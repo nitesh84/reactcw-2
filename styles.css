@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+div{
+    width: 100vw;
+    text-align: center;
+}
+
+div:nth-child(2){
+    border: 5px solid red;
+}
+div:nth-child(3){
+    border: 5px solid darkblue;
+}
+div:nth-child(4){
+    border: 5px solid rebeccapurple;
+}
